@@ -1,0 +1,436 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  border: none;
+  outline: none;
+  box-sizing: border-box;
+  text-decoration: none;
+  text-transform: none;
+}
+html {
+  background: #fff;;
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+.display-flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  width: 120px;
+  height: 120px;
+}
+
+.navbar {
+  background: #153936;
+}
+
+.nav-links ul {
+  gap: 7rem;
+  margin-right: 5rem;
+}
+
+.nav-links ul li {
+  list-style-type: none;
+  transition: all 0.5s;
+}
+
+.nav-links ul li a:visited {
+  text-shadow: 5px 5px 10px;
+}
+
+.nav-links ul li a {
+  color: #fff;;
+  font-size: 2rem;
+}
+
+.nav-links ul li a:hover {
+  text-shadow: 5px 5px 10px;
+}
+
+form {
+  padding: 0.5rem 0;
+}
+
+.form {
+  text-align: center;
+  /* margin-top: 5rem; */
+}
+
+.form button {
+  /* margin-top: 5rem; */
+  font-size: 2em;
+  padding-inline: 1.7em;
+  padding-top: 0.7em;
+  padding-bottom: 0.7em;
+}
+
+label {
+  margin-right: 1rem;
+  font-size: 1.5rem;
+  /* border: 2px solid red; */
+}
+
+input {
+  border-bottom: 1px solid black;
+  margin-top: 4rem;
+}
+
+.incorrect {
+  border: 2px solid red;
+}
+
+.inccorect::placeholder {
+  color: #f00;
+}
+
+/* .email::placeholder {
+  color: black;
+} */
+
+.divForm {
+  margin: 0 auto;
+  border: 2px solid black;
+  border-radius: 10px;
+  width: 40rem;
+  height: 51.5rem;
+  padding-top: 2.5rem;
+  margin-top: 6rem;
+  margin-bottom: 12rem;
+}
+
+.divForm button {
+  background: #153936;
+  border-radius: 15px;
+}
+
+.divForm a {
+  color: #fff;
+}
+
+.divForm p {
+  text-align: center;
+  font-size: 3.5rem;
+  font-weight: bold;
+  color: #153936;
+}
+
+.about-me {
+  background-color: #fff;;
+  height: 80vh;
+  margin-top: 0.1rem;
+  justify-content: space-around;
+}
+.about-me-left {
+  width: 30%;
+  text-align: center;
+}
+
+.about-me-left i {
+  color: #153936;
+  margin-top: 5rem;
+  font-size: 3rem;
+  margin-inline: 2rem;
+  cursor: pointer;
+}
+
+.separator {
+  border-left: 1px solid #153936;
+  height: 40rem;
+}
+
+.about-me-right {
+  width: 70%;
+  max-width: 50%;
+}
+
+.about-me-right p {
+  color: #153936;
+  font-size: 1.2rem;
+}
+
+.about-me img {
+  height: 400px;
+  box-shadow: 10px 10px 10px #153936;
+  border-radius: 10px;
+  transition: all 0.5s;
+}
+
+.about-me img:hover {
+  height: 410px;
+  box-shadow: 20px 20px 30px #153936;
+  
+}
+
+.mape {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+iframe {
+  height: 500px;
+}
+
+.beograd-mapa {
+  background-color: #fff;;
+  gap: 10rem;
+}
+
+.beograd-mapa .beograd-desno-tekst {
+  max-width: 30%;
+  text-align: center;
+}
+
+.zlatibor-mapa {
+  background-color: #153936;
+  flex-direction: row-reverse;
+}
+
+.zlatibor-mapa .zlatibor-levo-tekst {
+  max-width: 29%;
+  color: #fff;;
+  text-align: center;
+}
+
+.contact-card {
+  max-width: 400px;
+  background-color: #153936;
+  border-radius: 20px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+
+.profile-picture {
+  position: relative;
+  margin-top: 3rem;
+}
+
+.profile-picture img {
+  display: block;
+  width: 100%;
+  height: auto;
+  
+}
+
+.contact-details {
+  padding: 30px;
+  color: #fff;;
+}
+
+h2 {
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+}
+
+li i {
+  margin-right: 10px;
+  color: #9f8c52;
+  font-size: 24px;
+}
+
+li a {
+  color: #333333;
+  text-decoration: none;
+}
+
+li a:hover {
+  color: #2e86c1;
+}
+
+/* h2:hover,
+p:hover,
+li:hover {
+  color: #9f8c52;
+} */
+
+.profile-picture > img {
+  width: 300px;
+  margin: 0 auto;
+  height: 350px;
+}
+
+.hero .hero-tekst {
+  max-width: 800px;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 10rem;
+}
+
+/* Beograd card */
+.belgrade-card {
+  max-width: 1200px;
+  background-color: #153936;
+  border-radius: 20px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+
+.belgrade-picture {
+  position: relative;
+  margin-top: 3rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.belgrade-picture img {
+  display: block;
+  width: 100%;
+  margin: 0 auto;
+  height: auto;
+  border-radius: 20px 20px 20px 20px;
+}
+
+.belgrade-card img {
+  height: 350px;
+  width: 500px;
+}
+
+.booking-cards .contact-details span {
+  color: #9f8c52;
+}
+
+.booking-cards .contact-details i {
+  margin-right: 1rem;
+  color: #9f8c52;
+}
+/* Beograd kartica */
+
+/* Zlatibor kartica */
+.zlatibor-card {
+  max-width: 1200px;
+  background-color: #153936;
+  border-radius: 20px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+
+.zlatibor-picture {
+  position: relative;
+  margin-top: 3rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.zlatibor-picture img {
+  display: block;
+  width: 100%;
+  margin: 0 auto;
+  height: auto;
+  border-radius: 20px 20px 20px 20px;
+}
+
+.zlatibor-card img {
+  height: 350px;
+  width: 500px;
+}
+/* Zlatibor kartica */
+
+.footer {
+  background-color: #9f8c52;
+  height: #fff;
+  display: flex;
+  /* padding-top: 2rem; */
+  justify-content: center;
+  align-items: center;
+}
+
+.active {
+  /* color: #9f8c52; */
+  /* font-size: 20rem; */
+  border: 2px solid red;
+}
+
+/*----------------------*/
+
+h2 {
+  font-size: 3rem;
+  margin: 0;
+}
+
+h2 + p {
+  font-weight: 900;
+  color: #9f8c52;
+  text-transform: uppercase;
+  margin: 0.2rem 0;
+  font-size: 3rem;
+}
+
+.top-text {
+  font-size: 0.625rem;
+  margin: 0;
+  padding-top: 2px;
+  color: #9f8c52;
+  font-weight: 900;
+  text-transform: uppercase;
+  order: -1;
+  border-top: 5px solid #f18119;
+  border-image: linear-gradient(to left, #ff713b, #ffa51d) 1;
+}
+
+.content {
+  text-align: center;
+  /* margin-top: 25rem; */
+}
+
+.displayNone {
+  display: none;
+}
+
+.active {
+  color: #9f8c52;
+}
+
+form .ime,
+form .prezime,
+form .korisnicko-ime,
+form .imejl,
+form .sifra {
+  font-size: 1rem;
+  color: red;
+  display: inline-block;
+}
